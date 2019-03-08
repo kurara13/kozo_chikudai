@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+}
+.container{
+  width:100%;
+  padding:0 24px;
+}
+header{
+  height:80px;
+  background-color:#f7f7f7;
+  width:100%;
+  position:fixed;
+  z-index:10;
+  top:0;
+  left:0;
+
+}
+header img{
+  float: left;
+  height:80px;
+}
+header a{
+  float: right;
+  display: inline-block;
+  height:80px;
+  background-color: gray;
+  color: white;
+  line-height: 80px;
+  padding:0 15px;
+  opacity:0.6;
+}
+header a:hover{
+  opacity:0.9;
+  transition: 0.4s;
+}
+.title{
+  background-image: url(https://github.com/kurara13/kozo-img/blob/master/bnzn%20background.png?raw=true);
+  background-position:left top 80px;
+  background-size: 40%;
+  background-color: #d9e5ff;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  font-family:'Yu Gothic';
+
+}
+.title i{
+  padding-right: 6px;
+}
+.title h1{
+  font-family: serif;
+  text-align: center;
+  letter-spacing: 2px;
+  color:#004480;
+
+}
+.title p{
+  text-align: center;
+  padding-top: 30px;
+  color:#004480;
+
+}
+.title span{
+  color:white;
+}
+.title a{
+  font-family: cursive;
+  display: inline-block;
+  background-color: #002288;
+  color: white;
+  padding:2px 20px;
+  text-align: center;
+  border-radius: 5px;
+  opacity:0.7;
+  box-shadow: 0 7px #002233;
+}
+.title a:active{
+  box-shadow: none;
+  position:relative;
+  top:7px;
+}
+.promotions{
+  padding: 50px 40px;
+}
+.icon{
+  float:left;
+  height:70px;
+  display: inline-block;
+  border-right:2px solid #8C8B81;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+.promotion h2{
+  color:#4C433F;
+  line-height: 40px;
+  margin-left: 20px;
+}
+
+.promotion{
+  padding:10px;
+  margin-bottom: 20px;
+  font-family: 'Yu Gothic';
+  background-color:#FAF147;
+  box-shadow: 5px 5px #8C8B81;
+}
+.promotion p{
+  display: inline-block;
+  padding: 5px;
+}
+.promotions span{
+  color:#56A0F0;
+}
+.promotions .container{
+  border-bottom: 1px solid #C7C2C0;
+  padding-bottom: 20px;
+}
+.news{
+  text-align: center;
+  padding: 0px 40px;
+}
+.news img{
+  width:200px;
+  margin; 0 auto;
+}
+.info{
+  padding:10px;
+  margin-bottom: 20px;
+  font-family: 'Yu Gothic';
+  background-color:#F1ABD2;
+  box-shadow: 5px 5px #8C8B81;
+}
+.info h4{
+  color:#4C433F;
+  margin:2px auto;
+  padding:2px auto;
+}
+.info p{
+  display: inline-block;
+  padding:2px 15px;
+}
+footer{
+  text-align: center;
+  padding:20px;
+  background-color: #D7D9E1;
+}
+footer img{
+  width:200px;
+}
